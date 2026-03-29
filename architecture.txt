@@ -1,0 +1,37 @@
+AutoFlow AI – System Architecture
+
+1. Orchestrator Agent
+   - Controls full workflow
+   - Assigns tasks to agents
+
+2. Planner Agent
+   - Breaks workflow into steps
+
+3. Data Agent
+   - Retrieves required data
+
+4. Decision Agent
+   - Applies logic and rules
+
+5. Action Agent
+   - Executes tasks
+
+6. Verification Agent
+   - Ensures correctness
+
+7. Audit Agent
+   - Logs all activities
+
+Workflow Execution Flow:
+User → Orchestrator → Planner → Data → Decision → Action → Verification → Audit Log
+
+Error Handling:
+- Retry on failure
+- Log errors
+- Skip step if repeated failure
+
+Key Features:
+- Autonomous execution
+- Self-recovery
+- Auditability
+- Multi-agent collaboration
